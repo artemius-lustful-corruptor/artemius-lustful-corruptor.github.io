@@ -1,137 +1,106 @@
 BasicInfo:
-  FirstName: Inês
-  LastName: Almeida
-  Photo: img/avatar.jpg
+  FirstName: Artem
+  LastName: Salagaev
+  Photo: img/avatar.jpeg
   Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 789
     - Icon: fas fa-envelope
-      Info: contact@ines-almeida.com
+      Info: cunnus.slayer@gmail.com
     - Icon: fas fa-globe
-      Info: ines-almeida.com
-    - Icon: fas fa-map-marker-alt
-      Info: Portugal
-
-Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+      Info: https://www.linkedin.com/in/artem-salagaev-elixir/
+Profile: I have been working as a software engineer since summer 2017 to present. Worked as a front-end and back-end developer. And I love it. Have experience in creating microservices with TDD and DDD development process, integration with external systems, building API, writing unit tests, backrougnd processing data, writing documentation in swagger with open-api specification and GraphQL. From 2019 to nowadays working as an Elixir developer.
 Experience:
-  - Employer: Super Cool Company
-    Place: Oxford, UK
+  - Employer: FUN BOX
+    Place: Remote
+    Positions: 
+      - Title: Senior Software Engineer
+        Date: Jan 2022 - Present
+        Details:
+          - took part in development the MVP for variation of Mobile Connect protocol for banking in Uzbekistan with DDD process and Clean Architecture
+          - code review
+          - took part of making decision in tech architecture
+          - took part of implementation Mobile Connect protocols for Mobile Operators
+          - implement the extenstion for logging HTTP proxy requests through Allure reporter for test purposes
+          - integrate new metrics to Grafana dashboard
+          - use TDD metodology to develop new features
+          - writing dev documentations
+          - fix the seamless authentication
+          - bugfix, support and imrovements in Mobile Connect protocol
+        Badges: ['Elixir', 'Grafana', 'Phoenix', 'Gitlab', 'Docker', 'TDD', 'DDD', 'Svelte', 'JavaScript', 'Jira', 'Confluence']
+  - Employer: Sreda Software Solutions
+    Place: St.Petersburg, RU
     Positions:
-      - Title: Software Engineer
-        Date: Jan 2020 - Present
+      - Title: Middle Software Enginer
+        Date: Jun 2018 - Dec 2021
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
-      - Title: Software Tester
-        Date: Mar 2019 - Jan 2020
+          - create the service to provide and calculate car insurace due multiple insurance brokers
+          - create the PDF render service for insurance policies in "Simble" car's insurance service
+          - create the push notificiation service to mobile apps for "Simble"
+          - create the service for launching trained neural networks to calculate user's ride for "Simble"
+          - integrate DjangoCMS to MVP of Insurance Web service for crypto wallets
+          - integrate Insurance Web service with CoinPayments for payment transaction handling    
+          - head a small dev team at project with indoor WebGis navigation service
+          - make conversations with investors to explain tech part of the project
+          - control the quality of code base and testing process
+        Badges: ['Python', 'HTML', 'CSS', 'Vue', 'JavaScript', 'Django', 'Elixir', 'Phoenix', 'Swagger', 'GraphQL', 'Postgres', 'Kubernets', 'Docker', 'TDD', 'Agile']
+      - Title: Junior Software Enginer
+        Date: Jun 2017 - Jun 2018
         Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
-  - Employer: Another super cool company
-    Place: Lisbon, PT
-    Positions:
-      - Title: Flow Cytometry Resource Specialist
-        Date: Jan 2018 - Mar 2019
-        Details:
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
-  - Employer: Institute of Neural Engineering
-    Place: Graz, AT
-    Positions:
-      - Title: Master's Thesis Research Intern
-        Date: Oct 2016 - Jun 2017
-        Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
-
+          - create the sub-system which convert geographical coordinates for the city state departement and processed trough ElasticSearch and PosgreSQL
+          - implement the reverse geocoding on the GIS server for androind application
+          - took part in the development of server for rendering electronic tags
+        Badges: ['Python', 'C++', 'JavaScript', 'HTML', 'CSS']
 Education:
-  - Course: BSc & MSc in Biomedical Engineering and Biophysics
-    Place: University of Lisbon
-    Date: Sep 2012 - Nov 2017
-    Details: Specialised in data analysis
-
-References:
-  - Name: Person One
-    Relation: Co-worker at Super Cool Company
-    Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 790
-    - Icon: fas fa-envelope
-      Info: contact@person-one.com
-    - Icon: fas fa-map-marker-alt
-      Info: Melbourne, Australia
-  - Name: Person Two
-    Relation: Boss at Super Cool Company
-    Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 791
-    - Icon: fas fa-envelope
-      Info: contact@person-two.com
-    - Icon: fas fa-map-marker-alt
-      Info: Sydney, Australia
-
-
+  - Course: BSc & MSc in Computer Software Engineering
+    Place: Peter the Great St.Petersburg Polytechnic University
+    Date: Sep 2013 - Nov 2019
+    Details: Specialised in Software Development and Software Design
 Skills:
   - Family: Programming
     Items:
-      - Python
-      - HTML (including Jinja)
+      - Elixir
+      - Erlang
       - Javascript
-      - CSS
-      - SASS
+      - Python
+      - Go
       - SQL
-      - C#
       - Bash
-      - MATLAB
   - Family: Frameworks
     Items:
+      - Phoenix
       - Django
+      - Vue
       - Flask
       - Hugo
-      - React
   - Family: Developer Tools
     Items:
       - Git
+      - Gitlab
       - Docker
-      - Jenkins
+      - Kubernetes
       - AWS
-  - Family: Misc
+      - Grafana
+      - Redis
+      - PostgreSQL
+      - InfluxDB
     Items:
-      - Adobe Tools
-      - LaTeX
-
+      - Web developers tools
+      - Neural Networks
+      - Blockchain
+      - Wireshark
+      - Keros
+      - TensorFlow
 Languages:
-  - Name: Portuguese
+  - Name: Russian
     Level: Native
   - Name: English
-    Level: C2
-  - Name: Spanish
-    Level: B1
-  - Name: German
-    Level: B1
-
-Diplomas:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
-
+    Level: B2
 Interests:
-  - Bouldering
-  - Cooking
-  - Windsurfing
-  - Bossa Nova
-  - Design
+  - Linux
+  - Networks
+  - Open Source
+  - Warhammer 40k
+  - Tabletop games
+  - History
+  - Workout
+  - Latina Dance
   - Languages
