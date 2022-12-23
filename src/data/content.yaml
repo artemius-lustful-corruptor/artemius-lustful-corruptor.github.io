@@ -6,8 +6,8 @@ BasicInfo:
     - Icon: fas fa-envelope
       Info: cunnus.slayer@gmail.com
     - Icon: fas fa-globe
-      Info: https://www.linkedin.com/in/artem-salagaev-elixir/
-    - Icon: fas-fa-globe
+      Info: https://www.linkedin.com/in/artem-salagaev-elixir
+    - Icon: fas fa-globe
       Info: https://github.com/artemius-lustful-corruptor
 Profile: I have been working as a software engineer since summer 2017 to present. Worked as a front-end and back-end developer. And I love it. Have experience in creating microservices with TDD and DDD development process, integration with external systems, building API, writing unit tests, backrougnd processing data, writing documentation in swagger with open-api specification and GraphQL. From 2019 to nowadays working as an Elixir developer.
 Experience:
