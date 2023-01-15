@@ -9,7 +9,9 @@ BasicInfo:
       Info: https://www.linkedin.com/in/artem-salagaev-elixir
     - Icon: fas fa-globe
       Info: https://github.com/artemius-lustful-corruptor
-Profile: I have been working as a software engineer since summer 2017 to present. Worked as a front-end and back-end developer. And I love it. Have experience in creating microservices with TDD and DDD development process, integration with external systems, building API, writing unit tests, backrougnd processing data, writing documentation in swagger with open-api specification and GraphQL. From 2019 to nowadays working as an Elixir developer.
+
+Profile: I have been working as a backend engineer at Funbox company for 1 year. In this role, I provide bugfix, support and improvements in implementation of Mobile Connect protocol for our customers,  assisting with developing solutions to any concerns regarding system architecture and authorization process development. Before this, I held other lower-level software engineer roles for several years before earning my master’s degree and gaining developer experience, mostly on Elixir. Also sometimes I worked on Python and JS. At this stage in my career, I am ready to take on more challenging work as a Middle or Senior Elixir Developer and hone my technical skills as a Software Engineer and System Architect. I have started my work as an Elixir developer in summer 2019 in a small Russian company in a project, which is related to Insurance business. This is the mobile app which sells insurance policies to user’s rides and calculates user drive style and profile. I was a developer of several microservices and also trying my own leadership as a head of a small developer team. In January 2022 I changed my work. Till nowadays I worked as a developer at a Telecommunication company which supports its own implementation of Mobile Connect protocol. My responsibilities included bugfix and improvements of current realization and also development of new features. In those projects I  have gained experience of TDD and DDD methodology of development process, SOLID and Clean Architecture principles of complex software.
+
 Experience:
   - Employer: FUN BOX
     Place: Remote
@@ -17,39 +19,37 @@ Experience:
       - Title: Senior Software Engineer
         Date: Jan 2022 - Present
         Details:
-          - took part in development the MVP for variation of Mobile Connect protocol for banking in Uzbekistan with DDD process and Clean Architecture
-          - code review
-          - took part of making decision in tech architecture
-          - took part of implementation Mobile Connect protocols for Mobile Operators
-          - implement the extenstion for logging HTTP proxy requests through Allure reporter for test purposes
-          - integrate new metrics to Grafana dashboard
-          - use TDD metodology to develop new features
-          - writing dev documentations
-          - fix the seamless authentication
-          - bugfix, support and imrovements in Mobile Connect protocol
-        Badges: ['Elixir', 'Grafana', 'Phoenix', 'Gitlab', 'Docker', 'TDD', 'DDD', 'Svelte', 'JavaScript', 'Jira', 'Confluence']
+          - Assisted in architecture development of a new implementation of the Mobile Connectivity Protocol for Uzbekistan based on DDD and Clean architecture principles
+          - Created an extension for testing which can generate Allure reports which help test-engineers improve testing process and calculate statistics for future development process. That extension creates reports and writes to it the information about complex proxy requests in Mobile Connect implementation
+          - Integrated new metrics to Grafana dashboard. That metrics support to control stability of system and deploying process
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+        Badges: ['Elixir', 'Grafana', 'Phoenix', 'Gitlab', 'Docker', 'TDD', 'DDD', 'Svelte', 'JavaScript', 'Jira', 'Confluence', 'PostgreSQL', 'Ecto']
   - Employer: Sreda Software Solutions
     Place: St.Petersburg, RU
     Positions:
       - Title: Middle Software Enginer
         Date: Jun 2018 - Dec 2021
         Details:
-          - create the service to provide and calculate car insurace due multiple insurance brokers
-          - create the PDF render service for insurance policies in "Simble" car's insurance service
-          - create the push notificiation service to mobile apps for "Simble"
-          - create the service for launching trained neural networks to calculate user's ride for "Simble"
-          - integrate DjangoCMS to MVP of Insurance Web service for crypto wallets
-          - integrate Insurance Web service with CoinPayments for payment transaction handling    
-          - head a small dev team at project with indoor WebGis navigation service
-          - make conversations with investors to explain tech part of the project
-          - control the quality of code base and testing process
+          - Created and led development process of the  microservice which aggregates cars insurance offers from multiple insurance brokers. That service also managed the lifecycle of issued policies. Successfully works in Simble
+          - Created a microservice which generates PDF for issued policies. That service used of many Insurance companies which working with Simble
+          - Created Push notification service which used APNS and Firebase to notification mobile clients about their insurance status. Successfully works in Simble.
+          - Created a service for selecting, launching multiple analytical trained neural networks to calculate user driver profile and drive style. Successfully works in Simble
+          - Was a developer and tech leader of successful WebGIS for Indoor Navigation with Web Shape Editor functionality
+          - Integrated DjangoCMS into the MVP of an insurance web service for crypto wallets and connecting it to CoinPayments to process payment transactions
+          - Coded, tested, documented, fixed many issues and tasks in Gitlab to do my best as a developer
         Badges: ['Python', 'HTML', 'CSS', 'Vue', 'JavaScript', 'Django', 'Elixir', 'Phoenix', 'Swagger', 'GraphQL', 'Postgres', 'Kubernets', 'Docker', 'TDD', 'Agile']
       - Title: Junior Software Enginer
         Date: Jun 2017 - Jun 2018
         Details:
-          - create the sub-system which convert geographical coordinates for the city state departement and processed trough ElasticSearch and PosgreSQL
-          - implement the reverse geocoding on the GIS server for androind application
-          - took part in the development of server for rendering electronic tags
+          - Created the sub-system which convert geographic coordinates for the city bus stops and processed through ElasticSearch and PostgreSQL
+          - Implemented the module for Java server which do reverse geocoding on the GIS server for the android application
+          - Took part in the development of server for rendering electronic tags as frontend and backend developer
         Badges: ['Python', 'C++', 'JavaScript', 'HTML', 'CSS']
 Education:
   - Course: BSc & MSc in Computer Software Engineering
@@ -69,6 +69,7 @@ Skills:
   - Family: Frameworks
     Items:
       - Phoenix
+      - OTP
       - Django
       - Vue
       - Flask
