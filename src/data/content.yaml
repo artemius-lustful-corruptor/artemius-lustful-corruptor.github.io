@@ -6,7 +6,7 @@ BasicInfo:
     - Icon: fas fa-envelope
       Info: cunnus.slayer@gmail.com
     - Icon: fas fa-globe
-      Info: https://www.linkedin.com/in/artem-salagaev-elixir
+      Info: https://www.linkedin.com/in/artem-salagaev
     - Icon: fas fa-globe
       Info: https://github.com/artemius-lustful-corruptor
 
@@ -22,13 +22,9 @@ Experience:
           - Assisted in architecture development of a new implementation of the Mobile Connectivity Protocol for Uzbekistan based on DDD and Clean architecture principles
           - Created an extension for testing which can generate Allure reports which help test-engineers improve testing process and calculate statistics for future development process. That extension creates reports and writes to it the information about complex proxy requests in Mobile Connect implementation
           - Integrated new metrics to Grafana dashboard. That metrics support to control stability of system and deploying process
-          - 
-          - 
-          - 
-          - 
-          - 
-          - 
-          - 
+          - Changed behavior of seamless authentication to provide unification interface for multiple service providers with equal level of security for some use cases
+          - Refactored legacy code for more understand and easy modification in future which used Clean Architecture principles with divided to responsibilities layers and dependency inversion
+          - Worked with encryption and decryption users personal data through complex authorization process in Mobile Connect protocol to identify client with procedure KYC
         Badges: ['Elixir', 'Grafana', 'Phoenix', 'Gitlab', 'Docker', 'TDD', 'DDD', 'Svelte', 'JavaScript', 'Jira', 'Confluence', 'PostgreSQL', 'Ecto']
   - Employer: Sreda Software Solutions
     Place: St.Petersburg, RU
@@ -36,9 +32,9 @@ Experience:
       - Title: Middle Software Enginer
         Date: Jun 2018 - Dec 2021
         Details:
-          - Created and led development process of the  microservice which aggregates cars insurance offers from multiple insurance brokers. That service also managed the lifecycle of issued policies. Successfully works in Simble
+          - Created and led development process of the  microservice which aggregates car insurance offers from multiple insurance brokers. That service also managed the lifecycle of issued policies. Successfully works in Simble
           - Created a microservice which generates PDF for issued policies. That service used of many Insurance companies which working with Simble
-          - Created Push notification service which used APNS and Firebase to notification mobile clients about their insurance status. Successfully works in Simble.
+          - Created Push notification service which used APNS and Firebase to notify mobile clients about their insurance status. Successfully works in Simble.
           - Created a service for selecting, launching multiple analytical trained neural networks to calculate user driver profile and drive style. Successfully works in Simble
           - Was a developer and tech leader of successful WebGIS for Indoor Navigation with Web Shape Editor functionality
           - Integrated DjangoCMS into the MVP of an insurance web service for crypto wallets and connecting it to CoinPayments to process payment transactions
