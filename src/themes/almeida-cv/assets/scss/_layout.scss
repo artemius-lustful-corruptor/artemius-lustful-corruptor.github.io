@@ -6,18 +6,7 @@
         float: left;
         width: $width-left-col;
         height: 100%;
-        padding: 3rem 4rem;
-
-        @media screen {
-            &::after {
-                content: '2020 © by Inês Almeida   |   ines-almeida.com';
-                height: 4rem;
-                width: 100%;
-                position: absolute;
-                bottom: 0.5rem;
-                color: darken($color-light, 10%);
-            }
-        }
+        padding: 1.6rem 2rem;
     }
 
     &__right {
@@ -27,7 +16,7 @@
         background-color: $color-right-col-background;
         color: $color-right-col-body-text;
         height: 100%;
-        padding: 2rem 3rem;
+        padding: 1.6rem 2rem;
         right: 1rem;
 
         @include shadow(0.5);

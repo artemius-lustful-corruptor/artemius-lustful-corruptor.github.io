@@ -10,80 +10,88 @@ BasicInfo:
     - Icon: fas fa-globe
       Info: https://github.com/artemius-lustful-corruptor
 
-Profile: |
-  <p> I have been working as a backend engineer since the summer of 2019, mostly on Elixir. Before this, I worked in other lower-level software engineer roles for several years before earning my master’s degree and gaining developer experience. In those projects, I have gained experience in TDD and DDD methodology of the development process, SOLID, and clean architecture principles to build complex software. Regards that working experience I have wide expertise in Elixir/Erlang/OTP and processes-based approach, where the purpose is to build Long-lived continuous processing systems with fault tolerance.</p>
-  <p> At this stage of my career, I am ready to take on more challenging work as a Middle or Senior Elixir Developer and improve my technical skills as a Software Engineer and System Architect. I want to build reliable, secure, and scalable systems serving millions of parallel users, handling billions of transactions per day.
-  <p> I think that my ability to be a team player is at least as important as my ability to learn new things quickly and solve tricky problems, as is my passion for working with Elixir/Erlang/OTP technologies and finding joy in sharing what I've learned.</p>
+Profile: <p> I am an enthusiastic software engineer with 6 years of professional commercial working development experience. I have worked as a Backend Engineer with Elixir/Phoenix for 4 years.
+ <p> Facilitated the development of the authorization system 'MobileID' through mobile phones via Mobile Connect protocol for one of the top Russian telecommunication companies - MegaFon. Also was a backend developer from the beginning to the release to the production of an innovative mobile application 'Simble' for car and ride insurance on demand.</p>
+ <p> Regarding that working experience, I have wide expertise in processes-based approach, where the purpose is to build Long-lived continuous processing systems with fault tolerance.</p>
+ <p> Worked to apply comprehensive software creation and maintenance expertise for FunBox and Sreda companies.</p>
 Experience:
   - Employer: FUN BOX
-    Place: Remote
+    Place: Remote, RU
     Positions: 
       - Title: Backend Software Engineer
         Date: Jan 2022 - Present
         Details:
-          - Mostly the time I have been working to support the current implementation of complex authorization solutions based on the Mobile Connect (GSMA) protocol for one of the famous Russian Telecommunication companies (Megafon, MobileID).  In that project I have been providing bugfix, implementing new features, refactoring, testing, deploying, and dependency resolving. I have been working with Elixir/Phoenix (90% time), Ecto, Redis, ClickHouse, Grafana, Allure, Jira, Confluence, Gitlab, Kubernetes, Exq, and Tesla.
-          - Assisted in the architecture development of a new implementation of the Mobile Connect Protocol for Uzbekistan based on DDD and Clean Architecture principles. The developed core system with business rules and divided it from implementation with many abstraction architecture layers. It was created for easy modification of business rules and isolation implementation for multiple service providers.
-          - Created an extension for testing which can generate Allure reports which help test engineers improve the testing process and calculate statistics for the future development process. That extension creates reports and writes to it the information about complex proxy requests in Mobile Connect implementation.
-          - Integrated and collected new metrics to the Grafana dashboard. Those metrics support the stability of the system and deploying process.
-          - Changed the behavior of seamless authentication to provide a unification interface for multiple service providers with an equal level of security for their business use cases.
-          - Worked with encryption and decryption of user's data through a complex authorization process in Mobile Connect protocol to identify clients with procedure KYC.
-        Badges: ['Elixir', 'Grafana', 'Phoenix', 'Gitlab', 'Docker', 'TDD', 'DDD', 'Svelte', 'JavaScript', 'Jira', 'Confluence', 'PostgreSQL', 'Ecto', 'Allure', 'Exq', 'Tesla','Redis', 'ClickHouse']
+          - Designed API and developed implementation for internal APIs and those exposed to third-party integrators.
+          - Contributed and refactored the authorization aggregator system with Clean Architecture principles that improved maintainability and extensibility to new features.
+          - Developed a module for testing that can generate Allure reports which improved the testing process with calculated statistics for test coverage and improved code quality.
+          - Integrated and collected new metrics to the Grafana dashboard supporting improving the stability of the system and deploying process.
+          - Improved the seamless authentication process to provide a unification interface with an equal level of security which increased the number of service providers
+          - Fixed bugs and problems across the entire Funbox MobileID codebase efficient and timely manner.
+          - Collaborated with other software developers, QA, and DevOps engineers to ensure smooth deployment, continuous integration, and support for delivered software.
+          - Contributed to problem-solving by participating in code reviews with other software engineers.
   - Employer: Sreda Software Solutions
     Place: St.Petersburg, RU
     Positions:
-      - Title: Backend Software Engineer
-        Date: Jun 2018 - Dec 2021
+      - Title: Software Engineer
+        Date: Jun 2017 - Dec 2021
         Details:
-          -  I worked on the server for the mobile application 'Simble'. That server was architectured as multiple REST microservices which were developed mostly on Elixir/Phoenix but some of them use different technologies. In that project, I gained experience with AWS(Cognito, SNS), Firebase, APNS, GraphQL(absinthe), Kubernetes, Swagger, Broadway, Yandex Queues(AWS Queues), PostgreSQL, and Docker. Mostly the time I used Elixir/Phoenix but sometimes JS and Python for some applied tasks and also some YAML scripts for servers, charts, Gitlab-CI configuration, and deployments process.
-          - Have working experience with WebSockets and channels to collect and process data in real-time which were collected from a car on-board unit. It was a project for calculating energy level, GPS, and other data for an electro-car. That data was displayed on the mobile phone. I worked on the server side which was developed in combination with Erlang and Elixir. It was an umbrella app with erlang dependency for working with EGTS protocol.
-          - Created and led the development process of the microservice which aggregates car insurance offers from multiple insurance brokers. That service also managed the lifecycle of issued policies for the 'Simble' mobile app. This service was developed on Elixir/Phoenix/Ecto with several GenServers and supervisors for doing background jobs.
-          - Created a microservice that generates PDFs for issued policies. That service is used by many Insurance companies which work with 'Simble'. I combined solutions for rendering PDF with Python scripts with an Elixir server which collects and provide data through Erlang's binary port to python scripts and receives data for sending a response to the clients. 
-          - Created the Push notification service which used APNS and Firebase to notify mobile clients about their insurance status. I used the Pigion library and GenServers to maintain the notification lifecycle.
-          - Created a service for selecting, and launching multiple analytical scripts on Python and R to calculate user driver profiles and drive style based on GPS and other data from mobile phones. That service also used Erlang's port to manage the runtime process of those scripts.
-          - Was a developer and tech leader of successful WebGIS for Indoor Navigation with Web Shape Editor functionality. In that work, I gained experience with VueJS, Javascript, and the Leaflet library. 
-          - Integrated DjangoCMS into the MVP of an insurance web service for crypto wallets and connected it to CoinPayments to process payment transactions.
-          - Coded, tested, documented, and fixed many issues and tasks in Gitlab to do my best as a developer.
-        Badges: ['Python', 'HTML', 'CSS', 'Vue', 'JavaScript', 'Django', 'Elixir', 'Phoenix', 'Swagger', 'GraphQL', 'Postgres', 'Kubernetes', 'Docker', 'TDD', 'Agile', 'Firebase', 'APNS', 'PostgreSQL', 'Erlang', 'Grafana', 'AWS', 'Yandex Queues', 'Broadway', 'Gitlab-CI', 'YAML']
-      - Title: Junior Software Engineer
-        Date: Jun 2017 - Jun 2018
-        Details:
-          - Created the sub-system which converted geographic coordinates for the city bus stops and processed them through ElasticSearch and PostgreSQL.
-          - Implemented the module for the Java server which does reverse geocoding on the GIS server for the android application.
-          - Took part in the development of a server for rendering electronic tags as a full-stack developer with JS and C++.
-        Badges: ['Python', 'Java', 'C++', 'JavaScript', 'HTML', 'CSS']
+          - Ensured tight cooperation with other engineers, and designers through active listening, communication, and leadership skills.
+          - Designed and developed RESTful and GraphQL APIs for internal and external integration systems with well-documented SwaggerUI and OpenApix schemas.
+          - Developed and managed configuration for Gitlab-CI pipelines, Kubernetes charts, and Docker images to improve the development and deployment process.
+          - Developed a system on Elixir and Erlang for controlling energy and navigation of electric cars through EGTS protocol with WebSockets and channels to process data in real-time collected from a car on-board unit. 
+          - Led a team of 4 developers to implement the microservice to aggregate car insurance offers from multiple insurance brokers with background processing, synchronization, and managing police lifecycle.
+          - Developed an Elixir/Python microservice with cross-programming language communications through Erlang's port to generate PDFs for issued policies. That service is integrated by multiple Insurance companies which work with 'Simble'.
+          - Developed and designed GraphQL APIs for aggregator analytical results that were fetched from AWS Queues via Broadway library to collect and display results as GraphQL analytical aggregator system.
+          - Developed an Elixir service to select and launch multiple analytical scripts to manage the runtime process of those scripts to calculate driver profile and drive style.
 Education:
   - Course: BSc & MSc in Computer Software Engineering
     Place: Peter the Great St.Petersburg Polytechnic University
     Date: Sep 2013 - Nov 2019
     Details: Specialised in Software Development and Software Design
 Skills:
+  - Family: Software Engineering
+    Items:
+      - API's design
+      - Architecture design
+      - Domain-Driven Development
+      - Test-Driven Development
+      - Unit testing
+      - Integration testing
+      - Mocking data
+      - Documentation
+      - Time Management
+  - Family: Teamwork
+    Items:
+      - Providing constructive/specific feedback
+      - Leadership
+      - Non-toxic communication with tech and non-tech persons
+      - Product-oriented mindset
+      - Agile
   - Family: Programming
     Items:
       - Elixir
       - Erlang
       - Javascript
       - Python
-      - Go
-      - SQL
-      - YAML
-      - Bash
   - Family: Frameworks
     Items:
       - Phoenix
-      - Ecto
       - OTP
-      - Exq
-      - Broadway
+      - broadway
       - phoenix-swagger
-      - Absinthe 
+      - absinthe 
       - Django
       - VueJS
       - Flask
-      - Hugo
+      - OpenApiSpecx
+      - tesla
+      - mox
+      - ExUnit
+      - ex-aws
+      - ex-machina
   - Family: Developer Tools
     Items:
       - Git
-      - Gitlab
       - Docker
       - Kubernetes
       - AWS
@@ -94,28 +102,24 @@ Skills:
       - Swagger
       - GraphQL
       - OpenApi
+      - REST
+      - MongoDB
+      - SQL/noSQL
+  - Family: Enthusiasm
     Items:
-      - Web developers tools
       - Neural Networks
       - Blockchain
-      - Wireshark
-      - Keros
-      - TensorFlow
+      - Network
+     
 Languages:
   - Name: Russian
     Level: Native
   - Name: English
     Level: B2
 Interests:
-  - Linux
-  - Networks
   - Open Source
   - Warhammer 40k
   - Tabletop games
   - History
   - Workout
-  - Reading
   - Latina Dance
-  - Languages
-  - Exercism.org
-  - Laptops
