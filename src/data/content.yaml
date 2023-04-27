@@ -1,7 +1,7 @@
 BasicInfo:
   FirstName: Artem
   LastName: Salagaev
-  Photo: img/avatar.jpeg
+  Photo: 
   Contacts:
     - Icon: fas fa-envelope
       Info: cunnus.slayer@gmail.com
@@ -10,10 +10,9 @@ BasicInfo:
     - Icon: fas fa-globe
       Info: https://github.com/artemius-lustful-corruptor
 
-Profile: <p> I am an enthusiastic software engineer with 6 years of professional commercial development experience. I have been working as a Backend Engineer with Elixir/Phoenix for 4 years.
- <p> Facilitated the development of the authorization system 'MobileID' through mobile phones via Mobile Connect protocol for one of the top Russian telecommunication companies - MegaFon. Also was a backend developer from the beginning to the release to the production of an innovative mobile application 'Simble' for car and ride insurance on demand.</p>
- <p> Regarding that working experience, I have wide expertise in processes-based approach, where the purpose is to build Long-lived continuous processing systems with fault tolerance.</p>
- <p> Worked to apply comprehensive software creation and maintenance expertise for FunBox and Sreda companies.</p>
+Profile: <p> As an enthusiastic software engineer with six years of professional commercial development experience. With four years of experience as a Backend Engineer with Elixir/Phoenix and two years as a full-stack Web Developer with Python and VueJS, I have demonstrated the ability to work collaboratively with cross-functional teams to deliver innovative software solutions. </p> 
+ <p> I have a proven track record of success, having facilitated the development of the authorization system 'MobileID' through mobile phones via Mobile Connect protocol for MegaFon, one of the top telecommunication companies in Russia. Additionally, I was involved in the end-to-end development and release to production of an innovative mobile application 'Simble' for on-demand car and ride insurance. </p> 
+ <p> With deep expertise in a processes-based approach, I excel in building long-lived continuous processing systems with fault tolerance. My comprehensive software creation and maintenance expertise has been applied in my work with FunBox and Sreda companies, where I have delivered successful solutions that meet business requirements. </p>
 Experience:
   - Employer: FUN BOX
     Place: Remote, RU
@@ -21,28 +20,25 @@ Experience:
       - Title: Backend Software Engineer
         Date: Jan 2022 - Present
         Details:
-          - Designed API and developed implementation for internal APIs and those exposed to third-party integrators.
-          - Contributed and refactored the authorization aggregator system with Clean Architecture principles that improved maintainability and extensibility to new features.
-          - Developed the subsystem wich generates Allure reports. They improved the testing process with calculated statistics for test coverage and improved code quality.
-          - Integrated and collected new metrics to the Grafana dashboards. They supported improving the stability of the system and deploying process.
-          - Improved the seamless authentication process to provide a unification interface with an equal level of security which increased the number of service providers
-          - Fixed bugs and problems across the entire FunBox MobileID codebase efficiently in a timely manner.
-          - Collaborated with other software developers, QA and DevOps engineers to ensure smooth deployment, continuous integration to support delivered software.
-          - Contributed to problem-solving by participating in code reviews with other software engineers.
+          - Designed, developed, and maintained Elixir-based applications with Phoenix for both internal and third-party systems, ensuring high performance, and maintainability.
+          - Created and maintained RESTful APIs and data pipelines to support OpenID protocol and business requirements from service providers.
+          - Refactored the MobileID system with Clean Architecture and Domain Driven Design principles, improving maintainability and extensibility to new features.
+          - Implemented best practices for test-driven development, continuous integration and deployment, and code reviews with development subsystems, utilizing Allure reports and Grafana dashboards to improve the testing, stats, deployment, and test coverage process.
+          - Efficiently fixed bugs and problems across the entire FunBox MobileID codebase on time, ensuring a smooth user experience.
+          - Collaborated with cross-functional teams to identify business requirements and design solutions that meet those requirements, utilizing strong communication and interpersonal skills to foster productive relationships with stakeholders.
   - Employer: Sreda Software Solutions
     Place: St.Petersburg, RU
     Positions:
       - Title: Software Engineer
         Date: Jun 2017 - Dec 2021
         Details:
-          - Ensured tight cooperation with other engineers and designers through active listening, communication, and leadership skills.
-          - Designed and developed RESTful and GraphQL APIs for internal and external integration systems with well-documented SwaggerUI and OpenApix schemas.
-          - Developed and managed configuration for Gitlab-CI pipelines, Kubernetes charts, and Docker images to improve the development and deployment process.
-          - Developed a system on Elixir and Erlang for controlling energy and navigation of electric cars through EGTS protocol with WebSockets and channels to process data collected from a car on-board unit in real-time. 
-          - Led a team of 4 developers to implement the microservice that aggregates car insurance offers from multiple insurance brokers with background processing, synchronization and police lifecycle.
-          - Developed an Elixir/Python microservice with cross-programming language communications through Erlang's port to generate PDFs for issued policies. That service is integrated by multiple Insurance companies which work with 'Simble'.
-          - Developed and designed GraphQL APIs for aggregator analytical results that were fetched from AWS Queues via Broadway library to collect and display results as GraphQL analytical aggregator system.
-          - Developed an Elixir service to select and launch multiple analytical scripts and manage the runtime process of those scripts to calculate driver profile and drive style.
+          - Ensured tight cooperation with other engineers and designers, resulting in seamless collaboration and efficient project delivery.
+          - Designed and developed RESTful and GraphQL APIs for internal and external systems, utilizing well-documented SwaggerUI and OpenApix schemas.
+          - Managed configuration for Gitlab-CI pipelines, Kubernetes charts, and Docker images to improve the development and deployment process.
+          - Contributed to an Elixir and Erlang system for controlling energy and navigation of electric cars through EGTS protocol, utilizing WebSockets and channels to process data collected from a car onboard unit in real time.
+          - Designed and developed Elixir/Python microservice with cross-programming language communications through Erlang's port to generate PDFs for issued policies, which has been successfully integrated by multiple insurance companies working with 'Simble'.
+          - Developed and designed GraphQL APIs for an analytical aggregator system that fetched results from AWS Queues via Broadway library, enabling the collection and display of analytical results.
+          - Developed an Elixir service to select and launch multiple analytical scripts and manage the runtime process of those scripts to calculate driver profile and drive style, resulting in a highly effective and efficient system for analyzing driver behavior.
 Education:
   - Course: BSc & MSc in Computer Software Engineering
     Place: Peter the Great St.Petersburg Polytechnic University
@@ -55,18 +51,14 @@ Skills:
       - Architecture design
       - Domain-Driven Development
       - Test-Driven Development
-      - Unit testing
-      - Integration testing
-      - Mocking data
-      - Documentation
-      - Time Management
+      - Unit & Integration testing
+      - Continuous integration and deployment
   - Family: Teamwork
     Items:
       - Providing constructive/specific feedback
-      - Leadership
       - Non-toxic communication with tech and non-tech persons
       - Product-oriented mindset
-      - Agile
+      - Agile methodologies
   - Family: Programming
     Items:
       - Elixir
