@@ -4,22 +4,34 @@ BasicInfo:
   Photo: img/avatar.jpeg
   Contacts:
     - Icon: fas fa-envelope
-      Info: cunnus.slayer@gmail.com
+      Info: artem.salagaev.dev@gmail.com
     - Icon: fas fa-globe
       Info: https://www.linkedin.com/in/artem-salagaev
     - Icon: fas fa-globe
       Info: https://github.com/artemius-lustful-corruptor
 
-Profile: <p> As an enthusiastic software engineer with 6 years of professional commercial development experience, which includes building, shipping and maintaining a complicated software project. With 4 years of experience as a Backend Engineer with Elixir/Phoenix and 2 years as a full-stack Web Developer with Python and VueJS. </p> <p> I'm a team-player who enjoys solving problems trhough the use of experimentation and observation to develop innovative solutions. Moreover I have experience and abilities to work independently and self-guided.  </p> 
- <p> I have a proven track record of success, having facilitated the development of the authorization system 'MobileID' through mobile phones via Mobile Connect protocol for MegaFon, one of the top telecommunication companies in Russia. Additionally, I was involved in the end-to-end development and release to production of an innovative mobile application 'Simble' for on-demand car and ride insurance. </p> 
- <br> <p> My product mindset and expertise as a software engineer has been applied in my work with FunBox and Sreda companies, where I have delivered successful solutions that meet business requirements. </p>
- <br> <p> Today I'm looking new challenges as a Senior Elixir Developer to make impact for increasing business profit according to improve my tech and non-tech skills. </p>
+Profile: <p> I'm an enthusiastic software engineer with 7 years of professional commercial development experience, which includes building, shipping, and maintaining a complicated software project. With 5 years of experience as a Backend Engineer with Elixir/Phoenix and 2 years as a full-stack Web Developer with Python and VueJS. </p> <p> I'm a team player who enjoys solving problems through the use of experimentation and observation to develop innovative solutions. Moreover, I have experience and abilities to work independently and self-guided.  </p> 
+ <p> I have a proven track record of success, in multiple domains. I'd maintained a huge data platform for online retail. I facilitated the development of the authorization system as a SaaS solution for telecommunication companies  Additionally, I was involved in the end-to-end development and release to production of an innovative mobile application for on-demand car and ride insurance. </p> 
+ <br> <p> My product mindset and expertise as a software engineer have been applied in my work with companies, where I have delivered successful solutions that meet business requirements. </p>
+ <br> <p> Today I'm looking for new challenges as a Senior Elixir Developer to make an impact for increasing business profit according to improve my tech and non-tech skills. </p>
 Experience:
+  - Employer: Andersen
+    Place: Remote, UZ
+    Positions: 
+      - Title: Full Stack Web Software Engineer
+        Date: Aug 2023 - Present
+        Details:
+          - Assessed, decomposed, and executed the integration of new features into the data platform and data import pipelines.
+          - Enhanced the user experience of the internal CRM system to optimize managers' workflow and satisfaction.
+          - Successfully resolved system work incidents to minimize downtime and ensure operational efficiency.
+          - Managed and implemented new features in the GraphQL API to enhance functionality and performance.
+          - Conducted refactoring of legacy components to enhance maintainability and mitigate potential bugs in future releases.
+          - Conducted audits and implemented performance improvements for PostgreSQL and ElasticSearch integrations to optimize system efficiency.
   - Employer: FUNBOX
     Place: Remote, RU
     Positions: 
       - Title: Backend Software Engineer
-        Date: Jan 2022 - Present
+        Date: Jan 2022 - Aug 2023
         Details:
           - Worked with ambiguity, taking abstract concepts and turning them into working software. In particular, I used Domain Driven Development (DDD) to make the software with ubiquitous language for business service providers to reduce miscommunication between developers and businesses.
           - Designed, developed, decomposition, and maintained Elixir-based applications with Phoenix for both internal and third-party systems, ensuring high performance, and maintainability code base. Correspondingly bugfix, refactoring, feature integration, and extensions of 'MobileID' to resolve business requirements from service providers. As a result of this increased service providers' users' conversion through an easy authorization/authentication process via MobileID
